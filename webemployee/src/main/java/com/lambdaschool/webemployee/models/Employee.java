@@ -44,9 +44,10 @@ public class Employee
      * @param lname  The last name (String) of the employee
      * @param salary The salary (double) of the employee
      */
-    public Employee(String fname,
-                    String lname,
-                    double salary)
+    public Employee(
+        String fname,
+        String lname,
+        double salary)
     {
         this.fname = fname;
         this.lname = lname;
@@ -158,10 +159,10 @@ public class Employee
     public String toString()
     {
         return "Employee{" +
-                "empid=" + empid +
-                ", fname='" + fname + '\'' +
-                ", lname='" + lname + '\'' +
-                ", salary=" + salary +
-                '}';
+            "empid=" + empid +
+            ", fname='" + fname + '\'' +
+            ", lname='" + lname + '\'' +
+            ", salary=" + salary +
+            '}';
     }
 }
