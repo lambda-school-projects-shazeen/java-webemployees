@@ -44,6 +44,7 @@ public class Employee
         return empid;
     }
 
+    //needed when we run automated test
     public void setEmpid(long empid)
     {
         this.empid = empid;
@@ -79,6 +80,7 @@ public class Employee
         this.salary = salary;
     }
 
+    //roughly mirrors a JSON object
     @Override
     public String toString()
     {
